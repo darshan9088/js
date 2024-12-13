@@ -31,7 +31,7 @@ const info = {
     email:"darshan@google.com"
 }
 
-console.log(typeof info)
+// console.log(typeof info)
 
 // array:
 
@@ -45,3 +45,35 @@ const myFunctions = function(){
     console.log("hello world!");
 }
 // console.log(myFunctions);
+
+
+// :::::::::::::::::::::<----X---->:::::::::::::::::::::
+
+let myYoutube = "LegendXoOP"
+
+let anotherYoutube = myYoutube
+anotherYoutube = "Legend"
+
+// console.log(anotherYoutube);
+// console.log(myYoutube);
+
+
+let userOne = {
+    name:"darshan",
+    email:"user@google.com"
+}
+
+console.log(userOne);
+
+let userTwo = userOne
+console.log(userTwo);
+
+userTwo.email = "krina@google.com"
+// userOne.email = "darshan@google.com"
+
+console.log(userTwo);
+console.log(userOne);
+
+
+
+
